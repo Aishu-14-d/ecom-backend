@@ -1,3 +1,4 @@
+const { isAuth } = require("../middlewares/authMiddlewares");
 const Product = require("../models/Product");
 
 const getAllProducts = async (req, res) => {
